@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Newspaper" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jST-0S-QZH">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8xh-sw-ITc">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="2991"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9a-qX-iY0">
+                                                <rect key="frame" x="8" y="0.0" width="584" height="2983"/>
+                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a facilisis leo. Proin quis scelerisque nulla. Aenean et nulla porttitor, eleifend nisl ac, dapibus urna. Praesent scelerisque, nisi a efficitur eleifend, nibh leo aliquet purus, a rhoncus eros tortor sit amet ipsum. Vivamus vestibulum convallis metus sed gravida. Nullam venenatis nunc quis dolor tempus lacinia. Cras volutpat velit sed nisl condimentum elementum.
+
+Fusce aliquet non nulla vitae tristique. Nunc erat augue, bibendum luctus luctus ac, elementum eget eros. Phasellus eget tincidunt enim. Nam aliquet mattis vulputate. Pellentesque at orci eget sem pretium volutpat. Pellentesque tempor egestas arcu, nec consequat elit dignissim nec. Proin tempus, dolor sit amet consectetur suscipit, augue nulla tincidunt elit, aliquet convallis nulla diam quis lorem. Proin scelerisque dolor a vulputate dictum. Integer a egestas sapien. Aliquam hendrerit lacus eu pretium commodo. Donec fringilla leo ac orci elementum feugiat. Proin ac ipsum metus. Quisque quis blandit nisl, id pulvinar est. Sed sit amet elit ante.
+
+Proin ut nisi blandit, tristique nunc laoreet, mattis urna. Quisque non libero sit amet lorem lacinia laoreet nec id dolor. Etiam at feugiat elit. Donec semper feugiat libero, sed gravida nulla fringilla sit amet. Aenean sollicitudin congue ligula. Nam mauris dui, placerat dignissim eros sed, volutpat interdum libero. Nulla eu nibh mi. Nunc porttitor neque diam, in eleifend nulla volutpat sed. Nullam sit amet efficitur tortor, nec ultrices dolor.
+
+Proin massa magna, efficitur laoreet ipsum ut, posuere maximus felis. Ut orci diam, commodo eget est quis, mattis dapibus purus. Aenean ultricies fringilla vestibulum. Donec magna orci, semper sed eleifend aliquet, aliquet vitae est. Duis eu ipsum felis. Donec venenatis commodo nisl. Fusce pellentesque pulvinar tellus sit amet mollis. Aliquam ultrices nibh a augue lacinia, sed imperdiet nibh semper. Donec porta odio nisl, sed ultrices eros rhoncus non. Proin orci magna, tincidunt ut dictum bibendum, elementum sed mi.
+
+Sed tortor magna, elementum sit amet sapien sit amet, placerat imperdiet risus. Maecenas eget eros mi. Fusce mi leo, iaculis at commodo sed, fringilla quis ipsum. Maecenas sit amet tincidunt magna, non pharetra elit. Proin leo ligula, venenatis eget felis sed, auctor lacinia magna. In et orci a dui tempus tincidunt. Morbi eu consectetur quam, eget vulputate massa. Aenean vel molestie lectus, sed dictum eros. Integer convallis porttitor dolor, id bibendum erat hendrerit et. Aenean at velit at dui commodo congue ac non nisi. Ut sodales turpis non leo tincidunt cursus. Morbi eu tellus quis mi vestibulum pretium. Vestibulum tellus nisi, efficitur in lobortis quis, interdum at tortor. Nunc cursus eros consequat commodo ultrices. Fusce eleifend nibh non erat rhoncus molestie. Morbi diam nisi, pharetra a mollis ac, iaculis posuere purus.
+
+Aliquam lacus quam, pulvinar ut congue ut, vehicula nec mi. Sed sollicitudin mattis turpis quis cursus. In blandit arcu quis purus suscipit, eget facilisis nunc mollis. Vestibulum vestibulum id arcu sed ultricies. Vestibulum aliquet odio ipsum, nec vulputate est pulvinar vitae. Pellentesque maximus magna a porta ornare. Phasellus et nisi id lectus hendrerit pretium ut in purus. Maecenas interdum metus in est vestibulum semper. Pellentesque varius ante et velit facilisis, a aliquet leo euismod. Mauris faucibus, diam sed tempus pharetra, neque erat ultricies ligula, pretium finibus turpis nibh dapibus nisi. Donec erat nisi, facilisis vitae enim sit amet, lobortis pretium magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum quis orci et est interdum elementum non quis quam. Pellentesque imperdiet elit mi, non commodo dolor porta at.
+
+Phasellus vel ex eleifend, volutpat libero quis, suscipit urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin porta velit ut leo eleifend, ut auctor leo venenatis. Aliquam luctus pellentesque est, eu volutpat nunc. Morbi porttitor congue velit, eget eleifend dolor. Suspendisse faucibus eros nunc, sed suscipit nibh semper ac. Nunc laoreet blandit odio, in dignissim orci facilisis a. Vestibulum congue, ex in placerat faucibus, quam magna commodo velit, sit amet ultrices lectus neque in turpis. Donec faucibus eget enim at condimentum. Proin id tempor metus. Nunc auctor sed velit et sodales. Nullam feugiat condimentum urna, sed luctus neque tincidunt id. Sed id finibus orci.
+
+Aliquam mauris odio, dapibus at bibendum id, facilisis in sem. Nam velit arcu, malesuada vel consequat vel, cursus vitae tellus. Cras pulvinar lacus sit amet tortor dictum, a dapibus dolor sollicitudin. Quisque dapibus, est id vestibulum scelerisque, ex risus dictum justo, vel vestibulum sem diam nec tortor. In eu diam in mi condimentum elementum. Proin malesuada lacus ac mi interdum facilisis. Nulla facilisi. Sed mattis velit at nisl hendrerit volutpat. In eleifend diam nec erat porttitor placerat. Nulla scelerisque convallis sapien sed malesuada. Etiam molestie nisl eu lectus sodales, sit amet tempus diam maximus. Phasellus fermentum dignissim felis id lacinia. Duis ut consequat orci.
+
+Pellentesque id maximus sapien. Donec dignissim odio elit, finibus molestie est iaculis ac. Mauris ultricies tellus eget varius porttitor. Integer tempus imperdiet magna sit amet rhoncus. Integer feugiat massa vitae dui venenatis, et lobortis lectus malesuada. Sed commodo turpis in diam scelerisque, eget interdum diam maximus. Vestibulum tempor lacus nulla, ut vulputate nisl fermentum ut. Pellentesque sit amet augue quis mauris auctor porttitor. Donec in aliquam mi. Pellentesque ac mauris ac eros efficitur lacinia. Vivamus in enim pharetra, faucibus enim ut, eleifend velit. Fusce vel sapien accumsan, efficitur libero sed, feugiat lorem. Cras congue est at lacus molestie, ac vulputate nulla mattis. Nullam sodales vel nulla ac ultrices.
+
+Nam sodales purus sapien, vel pulvinar ligula aliquet id. Nullam lacinia ante vel cursus tristique. Etiam bibendum malesuada nulla ut rutrum. Cras id arcu feugiat, vulputate enim porta, volutpat tortor. Aenean urna nunc, venenatis rutrum turpis vel, fringilla consectetur elit. Nullam ullamcorper augue eget libero pretium, vitae semper diam rutrum. Integer aliquam non leo non convallis. Praesent et ligula in elit pretium pretium condimentum non orci. Aliquam ex nulla, ultrices ac urna eget, pretium mattis metus. Curabitur posuere malesuada dignissim. Nunc tristique porttitor placerat. Nam luctus augue vel viverra dapibus. Nullam tellus libero, elementum nec viverra non, semper sit amet felis. Maecenas eu nunc dolor. Phasellus dictum finibus sapien, ac semper risus mattis ac. Pellentesque vel consectetur velit.
+
+Quisque commodo a nisi in viverra. Sed scelerisque, dui vel tempor venenatis, purus dolor sollicitudin libero, sit amet maximus justo dui id urna. Etiam venenatis leo eget ipsum tincidunt, nec ultrices lacus scelerisque. Sed id est quis sapien convallis lobortis vitae sit amet felis. Integer lorem orci, ultricies sit amet faucibus eget, aliquet in odio. Fusce volutpat commodo leo at sollicitudin. Curabitur lobortis pellentesque nisi, ut dictum sapien tincidunt vel. Suspendisse volutpat lorem eu auctor ornare. Ut urna purus, tincidunt vitae tristique eu, maximus vitae ligula.
+
+Nulla ultrices facilisis arcu. Nam volutpat tempor neque sit amet laoreet. Aliquam pharetra, ligula ac posuere interdum, massa nisl consectetur metus, ac molestie ante leo vel tortor. Curabitur consectetur dui sed porttitor commodo. Morbi consequat, diam quis feugiat sollicitudin, nibh quam euismod nisl, varius varius quam nisl sed nibh. Fusce malesuada, turpis et placerat varius, sapien risus feugiat diam, eget vehicula ipsum odio quis velit. Ut in eros ac ipsum porttitor facilisis. Duis eu scelerisque lorem. Fusce ligula nibh, efficitur eu libero sit amet, posuere luctus dolor. Etiam tincidunt quam quis lacus ultrices, a fermentum dui ullamcorper. Pellentesque suscipit erat at aliquam sollicitudin.
+
+Curabitur nec turpis volutpat, fermentum sem at, interdum lectus. Nunc nisi elit, eleifend interdum dolor sed, luctus ornare nisi. Praesent luctus tincidunt ligula ut tempor. Duis commodo quam ut ipsum pharetra, fringilla accumsan quam pretium. Vestibulum suscipit scelerisque nunc id eleifend. Sed non lacus turpis. Ut fermentum placerat interdum.
+
+Duis laoreet orci non accumsan vestibulum. Vestibulum interdum lacinia sem, ac ullamcorper nisi sagittis eget. Phasellus tempus laoreet felis, sed vehicula neque sagittis ut. Sed egestas est eu odio vehicula, ut vestibulum nunc suscipit. Nulla facilisi. Pellentesque feugiat massa ut nisl interdum varius. Sed venenatis lectus urna, ac imperdiet eros suscipit quis. Aliquam in mi ut lorem vestibulum suscipit ac eget est.
+
+Mauris urna nisi, ultrices in massa ut, tristique aliquet felis. Nulla molestie, odio ac posuere tincidunt, tellus purus dictum sem, quis sodales mi diam non tortor. Nam gravida vel leo non congue. Integer vulputate metus sed luctus bibendum. Nulla facilisi. Proin in sagittis diam. Duis mi nibh, laoreet ac lectus sed, tempus laoreet lorem. Aliquam euismod nunc nec eros rutrum, in tempus ex tempor. Phasellus enim ligula, sollicitudin nec libero et, fermentum convallis mi. Duis vitae nisi iaculis, vestibulum libero eu, rutrum nunc. Duis a dolor fringilla, porta orci ac, molestie purus. Phasellus sed fringilla diam, sit amet mattis lacus. Donec malesuada lectus nec quam convallis iaculis.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="N9a-qX-iY0" secondAttribute="bottom" constant="8" id="Oqi-35-1g2"/>
+                                            <constraint firstItem="N9a-qX-iY0" firstAttribute="top" secondItem="8xh-sw-ITc" secondAttribute="top" id="P7J-5K-tMR"/>
+                                            <constraint firstAttribute="trailing" secondItem="N9a-qX-iY0" secondAttribute="trailing" constant="8" id="XhZ-vZ-gXv"/>
+                                            <constraint firstItem="N9a-qX-iY0" firstAttribute="leading" secondItem="8xh-sw-ITc" secondAttribute="leading" constant="8" id="sHN-6n-qZN"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="8xh-sw-ITc" secondAttribute="trailing" id="IKa-mi-VFn"/>
+                                    <constraint firstAttribute="bottom" secondItem="8xh-sw-ITc" secondAttribute="bottom" id="MEo-ag-et1"/>
+                                    <constraint firstItem="8xh-sw-ITc" firstAttribute="top" secondItem="jST-0S-QZH" secondAttribute="top" id="kPt-M3-yBw"/>
+                                    <constraint firstItem="8xh-sw-ITc" firstAttribute="leading" secondItem="jST-0S-QZH" secondAttribute="leading" id="yvC-Xt-hCw"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jST-0S-QZH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Jfd-kT-7o5"/>
+                            <constraint firstItem="jST-0S-QZH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="LTC-8G-4Ak"/>
+                            <constraint firstItem="8xh-sw-ITc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" priority="250" id="MqR-Xe-WDe"/>
+                            <constraint firstAttribute="trailing" secondItem="jST-0S-QZH" secondAttribute="trailing" id="Qkq-q3-ACQ"/>
+                            <constraint firstItem="8xh-sw-ITc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="cqu-mk-10M"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jST-0S-QZH" secondAttribute="bottom" id="fAe-3G-d1V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="newsContentLabel" destination="N9a-qX-iY0" id="VId-kA-CJq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="263"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="firebasepractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4n-a3-lh5">
+                                <rect key="frame" x="34" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="doFirst:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dM9-cb-ihz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0F-cf-VoR">
+                                <rect key="frame" x="34" y="66" width="51" height="30"/>
+                                <state key="normal" title="second"/>
+                                <connections>
+                                    <action selector="secondbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gdx-ne-PR7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PfI-Jg-Tgt">
+                                <rect key="frame" x="34" y="104" width="47" height="30"/>
+                                <state key="normal" title="upload"/>
+                                <connections>
+                                    <action selector="buttonUpload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kaE-vy-cwS"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jok-q1-kHO">
+                                <rect key="frame" x="34" y="269" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="KHO-gc-hrd"/>
+                                    <constraint firstAttribute="width" constant="200" id="X94-R0-8yg"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9L-LK-gfK">
+                                <rect key="frame" x="34" y="142" width="67" height="30"/>
+                                <state key="normal" title="download"/>
+                                <connections>
+                                    <action selector="buttonDownload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDW-QO-iX7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mx4-1R-fjS">
+                                <rect key="frame" x="34" y="185" width="60" height="30"/>
+                                <state key="normal" title="FB Login"/>
+                                <connections>
+                                    <action selector="fbLoginbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YPw-1J-8Aq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYN-mk-Fcg">
+                                <rect key="frame" x="34" y="218" width="59" height="30"/>
+                                <state key="normal" title="Write FB"/>
+                                <connections>
+                                    <action selector="doFBWrite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QId-qe-Wa6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRY-Hq-e4B">
+                                <rect key="frame" x="248" y="285" width="160" height="30"/>
+                                <state key="normal" title="Testing way1 write data"/>
+                                <connections>
+                                    <action selector="testing1Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="byh-nI-8mX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jok-q1-kHO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="210" id="7n8-hE-aU1"/>
+                            <constraint firstItem="dYN-mk-Fcg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="8Zp-f7-mPP"/>
+                            <constraint firstItem="z4n-a3-lh5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="9Z1-7O-QZ8"/>
+                            <constraint firstItem="PfI-Jg-Tgt" firstAttribute="top" secondItem="H0F-cf-VoR" secondAttribute="bottom" constant="8" id="9tz-Fu-Als"/>
+                            <constraint firstItem="Y9L-LK-gfK" firstAttribute="top" secondItem="PfI-Jg-Tgt" secondAttribute="bottom" constant="8" id="9v5-hx-Tg1"/>
+                            <constraint firstItem="Mx4-1R-fjS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="Cbv-cr-Jvk"/>
+                            <constraint firstItem="H0F-cf-VoR" firstAttribute="top" secondItem="z4n-a3-lh5" secondAttribute="bottom" constant="8" id="Lhg-cJ-rQ8"/>
+                            <constraint firstItem="dYN-mk-Fcg" firstAttribute="top" secondItem="Mx4-1R-fjS" secondAttribute="bottom" constant="3" id="Pqi-PI-zNq"/>
+                            <constraint firstItem="PfI-Jg-Tgt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Pt1-6h-pAR"/>
+                            <constraint firstItem="jok-q1-kHO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="bFV-er-pbF"/>
+                            <constraint firstItem="RRY-Hq-e4B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="265" id="cQ0-fh-KDE"/>
+                            <constraint firstItem="PfI-Jg-Tgt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="dJG-Xz-edW"/>
+                            <constraint firstItem="z4n-a3-lh5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="fVs-jZ-HfH"/>
+                            <constraint firstItem="RRY-Hq-e4B" firstAttribute="leading" secondItem="jok-q1-kHO" secondAttribute="trailing" constant="14" id="h6B-m3-Ixk"/>
+                            <constraint firstItem="Y9L-LK-gfK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="hhF-rq-4Xg"/>
+                            <constraint firstItem="jok-q1-kHO" firstAttribute="top" secondItem="dYN-mk-Fcg" secondAttribute="bottom" constant="21" id="mrO-po-sMr"/>
+                            <constraint firstItem="H0F-cf-VoR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="sCW-BV-rvg"/>
+                            <constraint firstItem="Mx4-1R-fjS" firstAttribute="top" secondItem="Y9L-LK-gfK" secondAttribute="bottom" constant="13" id="wys-dM-U74"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Pt1-6h-pAR"/>
+                                <exclude reference="7n8-hE-aU1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="loadImage" destination="jok-q1-kHO" id="QuS-L0-RYI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

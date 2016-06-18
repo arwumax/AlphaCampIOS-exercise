@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AlertPractise" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRZ-lT-2rV">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="aButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p8A-uK-wHS"/>
+                                    <segue destination="lHo-0j-YCO" kind="show" identifier="show detail" id="lHc-ak-hOz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JRZ-lT-2rV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9TP-vM-K0e"/>
+                            <constraint firstItem="JRZ-lT-2rV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v9i-oa-wRW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aButton" destination="JRZ-lT-2rV" id="cvh-xa-gQZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5" y="235"/>
+        </scene>
+        <!--Button View Controller-->
+        <scene sceneID="DXU-l9-0o6">
+            <objects>
+                <viewController id="lHo-0j-YCO" customClass="buttonViewController" customModule="AlertPractise" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vrn-Y9-Yoj"/>
+                        <viewControllerLayoutGuide type="bottom" id="sGm-jq-FBK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qW3-Bd-AcX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iG1-PD-CUs">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="aButton:" destination="lHo-0j-YCO" eventType="touchUpInside" id="sCa-ud-3O0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.96116357109999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="iG1-PD-CUs" firstAttribute="centerX" secondItem="qW3-Bd-AcX" secondAttribute="centerX" id="465-qo-Ds2"/>
+                            <constraint firstItem="iG1-PD-CUs" firstAttribute="centerY" secondItem="qW3-Bd-AcX" secondAttribute="centerY" id="rEu-xT-Bk7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aButton" destination="iG1-PD-CUs" id="tJu-0T-Pn6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blM-L8-D69" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="673" y="235"/>
+        </scene>
+    </scenes>
+</document>

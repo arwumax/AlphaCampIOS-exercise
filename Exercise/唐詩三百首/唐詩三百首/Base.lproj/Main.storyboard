@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="f1L-jH-rLW">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--古代詩人-->
+        <scene sceneID="U6c-4C-4o3">
+            <objects>
+                <tableViewController id="cYw-m4-ToI" customClass="PoetTableViewController" customModule="唐詩三百首" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" id="fwr-xf-b3Z">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PoetTableViewCell" rowHeight="90" id="nTQ-Yn-iyW" customClass="PoetTableViewCell" customModule="唐詩三百首" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="86" width="600" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nTQ-Yn-iyW" id="2AO-td-f0c">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="89.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="mQA-4B-GT5">
+                                            <rect key="frame" x="0.0" y="0.0" width="89" height="89"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameOfPoet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3KA-Pm-hzG">
+                                            <rect key="frame" x="105" y="8" width="123" height="27"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dynasty " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bbn-Eu-Vyy">
+                                            <rect key="frame" x="105" y="34" width="77" height="24"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uao-NW-rcu">
+                                            <rect key="frame" x="105" y="57" width="42" height="24.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="mQA-4B-GT5" secondAttribute="trailing" constant="503" id="1YT-jJ-4js"/>
+                                        <constraint firstItem="Uao-NW-rcu" firstAttribute="top" secondItem="Bbn-Eu-Vyy" secondAttribute="bottom" constant="-1" id="2ad-CK-H74"/>
+                                        <constraint firstItem="3KA-Pm-hzG" firstAttribute="leading" secondItem="mQA-4B-GT5" secondAttribute="trailing" constant="8" id="4er-XF-WI9"/>
+                                        <constraint firstItem="Uao-NW-rcu" firstAttribute="leading" secondItem="mQA-4B-GT5" secondAttribute="trailing" constant="8" id="5Ff-zY-qoc"/>
+                                        <constraint firstAttribute="topMargin" secondItem="3KA-Pm-hzG" secondAttribute="top" id="6kE-hs-yEh"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Bbn-Eu-Vyy" secondAttribute="trailing" constant="418" id="G1I-N7-QF5"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Uao-NW-rcu" secondAttribute="trailing" constant="445" id="L7U-yr-MaO"/>
+                                        <constraint firstItem="Uao-NW-rcu" firstAttribute="top" secondItem="Bbn-Eu-Vyy" secondAttribute="bottom" constant="-1" id="MbB-fK-vAR"/>
+                                        <constraint firstItem="mQA-4B-GT5" firstAttribute="top" secondItem="2AO-td-f0c" secondAttribute="topMargin" constant="-8" id="O1o-03-xKi"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="mQA-4B-GT5" secondAttribute="bottom" constant="-7.5" id="OUH-ut-ftL"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Uao-NW-rcu" secondAttribute="bottom" constant="3.5" id="UB6-Ca-oo2"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Uao-NW-rcu" secondAttribute="bottom" constant="3.5" id="UdL-Wb-g7o"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="3KA-Pm-hzG" secondAttribute="trailing" constant="372" id="aq1-ZQ-bZK"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="mQA-4B-GT5" secondAttribute="trailing" constant="503" id="c3G-iA-9Mq"/>
+                                        <constraint firstItem="Bbn-Eu-Vyy" firstAttribute="top" secondItem="3KA-Pm-hzG" secondAttribute="bottom" constant="-1" id="e0W-fY-nUL"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Uao-NW-rcu" secondAttribute="trailing" constant="453" id="esH-m5-jPj"/>
+                                        <constraint firstItem="mQA-4B-GT5" firstAttribute="leading" secondItem="2AO-td-f0c" secondAttribute="leadingMargin" constant="8" id="gOx-h3-lBp"/>
+                                        <constraint firstItem="mQA-4B-GT5" firstAttribute="top" secondItem="2AO-td-f0c" secondAttribute="topMargin" constant="-8" id="hNg-BX-YMJ"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="3KA-Pm-hzG" secondAttribute="trailing" constant="364" id="j42-S4-fy3"/>
+                                        <constraint firstItem="Uao-NW-rcu" firstAttribute="top" secondItem="Bbn-Eu-Vyy" secondAttribute="bottom" constant="-1" id="kpW-se-7SK"/>
+                                        <constraint firstItem="Bbn-Eu-Vyy" firstAttribute="leading" secondItem="mQA-4B-GT5" secondAttribute="trailing" constant="8" id="lK6-gk-acH"/>
+                                        <constraint firstItem="mQA-4B-GT5" firstAttribute="leading" secondItem="2AO-td-f0c" secondAttribute="leadingMargin" constant="-8" id="muQ-A9-ya7"/>
+                                        <constraint firstItem="Uao-NW-rcu" firstAttribute="leading" secondItem="mQA-4B-GT5" secondAttribute="trailing" constant="17" id="nbq-hn-Dv6"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="mQA-4B-GT5" secondAttribute="bottom" constant="-7.5" id="pI5-Ax-ee2"/>
+                                        <constraint firstItem="Uao-NW-rcu" firstAttribute="centerX" secondItem="2AO-td-f0c" secondAttribute="centerX" id="rDV-wu-332"/>
+                                        <constraint firstItem="Uao-NW-rcu" firstAttribute="top" secondItem="2AO-td-f0c" secondAttribute="topMargin" constant="49" id="rjj-WD-rW6"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Bbn-Eu-Vyy" secondAttribute="trailing" constant="410" id="rnJ-SI-zT5"/>
+                                        <constraint firstAttribute="topMargin" secondItem="3KA-Pm-hzG" secondAttribute="top" id="tEF-GQ-v5V"/>
+                                        <constraint firstItem="Bbn-Eu-Vyy" firstAttribute="top" secondItem="2AO-td-f0c" secondAttribute="topMargin" constant="26" id="tuE-OC-INf"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="c3G-iA-9Mq"/>
+                                            <exclude reference="gOx-h3-lBp"/>
+                                            <exclude reference="hNg-BX-YMJ"/>
+                                            <exclude reference="pI5-Ax-ee2"/>
+                                            <exclude reference="4er-XF-WI9"/>
+                                            <exclude reference="aq1-ZQ-bZK"/>
+                                            <exclude reference="tEF-GQ-v5V"/>
+                                            <exclude reference="G1I-N7-QF5"/>
+                                            <exclude reference="e0W-fY-nUL"/>
+                                            <exclude reference="lK6-gk-acH"/>
+                                            <exclude reference="2ad-CK-H74"/>
+                                            <exclude reference="5Ff-zY-qoc"/>
+                                            <exclude reference="MbB-fK-vAR"/>
+                                            <exclude reference="UB6-Ca-oo2"/>
+                                            <exclude reference="UdL-Wb-g7o"/>
+                                            <exclude reference="esH-m5-jPj"/>
+                                            <exclude reference="nbq-hn-Dv6"/>
+                                            <exclude reference="rDV-wu-332"/>
+                                            <exclude reference="rjj-WD-rW6"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dynasty" destination="Bbn-Eu-Vyy" id="UOc-Qn-uCY"/>
+                                    <outlet property="nameOfPoet" destination="3KA-Pm-hzG" id="WqA-fh-CWC"/>
+                                    <outlet property="poetImageView" destination="mQA-4B-GT5" id="sXs-L4-sTL"/>
+                                    <outlet property="year" destination="Uao-NW-rcu" id="qYs-mv-GmZ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="cYw-m4-ToI" id="zFk-Kg-b65"/>
+                            <outlet property="delegate" destination="cYw-m4-ToI" id="trV-YQ-G5a"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="古代詩人" id="9c2-JJ-Ksf"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tp5-qs-E0Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1105" y="561"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vy5-kE-Tx8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f1L-jH-rLW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AEJ-wM-qpJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cYw-m4-ToI" kind="relationship" relationship="rootViewController" id="ggG-AP-4DK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kxw-jJ-19a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293" y="561"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="defaultPhoto" width="1080" height="1080"/>
+    </resources>
+</document>

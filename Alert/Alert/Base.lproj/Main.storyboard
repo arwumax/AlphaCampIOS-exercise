@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Alert" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55m-Go-Lpi">
+                                <rect key="frame" x="20" y="28" width="33" height="30"/>
+                                <state key="normal" title="Alert"/>
+                                <connections>
+                                    <action selector="doAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aSe-5Q-E6r"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Wq-8k-ffr">
+                                <rect key="frame" x="20" y="66" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9Wq-8k-ffr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0qF-QN-ggV"/>
+                            <constraint firstItem="9Wq-8k-ffr" firstAttribute="top" secondItem="55m-Go-Lpi" secondAttribute="bottom" constant="8" id="aWk-hy-zUa"/>
+                            <constraint firstItem="55m-Go-Lpi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="q6F-UY-NKe"/>
+                            <constraint firstItem="55m-Go-Lpi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zUw-Gy-Uvt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelMessage" destination="9Wq-8k-ffr" id="nA9-81-gwr"/>
+                        <segue destination="ZzD-Ki-8Mf" kind="show" identifier="show detail" id="Liy-P8-5zR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="320" y="435"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="9Yg-wY-bjG">
+            <objects>
+                <viewController id="ZzD-Ki-8Mf" customClass="DetailViewController" customModule="Alert" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uNU-ZV-UI5"/>
+                        <viewControllerLayoutGuide type="bottom" id="676-jM-gcU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6QQ-aH-4eB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EmE-SH-Gcz">
+                                <rect key="frame" x="20" y="28" width="46" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="closeDetail:" destination="ZzD-Ki-8Mf" eventType="touchUpInside" id="UDy-a0-yHk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56f-kN-BRl">
+                                <rect key="frame" x="20" y="66" width="46" height="30"/>
+                                <state key="normal" title="Notify"/>
+                                <connections>
+                                    <action selector="doNotify:" destination="ZzD-Ki-8Mf" eventType="touchUpInside" id="vzk-GR-In1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="56f-kN-BRl" firstAttribute="top" secondItem="EmE-SH-Gcz" secondAttribute="bottom" constant="8" id="8JD-v6-3XN"/>
+                            <constraint firstItem="EmE-SH-Gcz" firstAttribute="top" secondItem="uNU-ZV-UI5" secondAttribute="bottom" constant="8" id="LI2-SR-RMB"/>
+                            <constraint firstItem="EmE-SH-Gcz" firstAttribute="leading" secondItem="6QQ-aH-4eB" secondAttribute="leadingMargin" id="QP7-cR-zY8"/>
+                            <constraint firstItem="56f-kN-BRl" firstAttribute="leading" secondItem="6QQ-aH-4eB" secondAttribute="leadingMargin" id="ush-Iu-x7P"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jca-RJ-aNw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1051" y="435"/>
+        </scene>
+    </scenes>
+</document>

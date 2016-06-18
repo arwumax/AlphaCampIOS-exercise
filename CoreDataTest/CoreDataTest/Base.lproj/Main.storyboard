@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoreDataTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ISBN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wcA-5W-Zj7">
+                                <rect key="frame" x="20" y="20" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Book Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7JL-x7-pES">
+                                <rect key="frame" x="20" y="58" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Author" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gwk-HW-R2G">
+                                <rect key="frame" x="20" y="96" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xkR-iA-r5o">
+                                <rect key="frame" x="20" y="134" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wjo-NO-y8A">
+                                <rect key="frame" x="280" y="172" width="40" height="30"/>
+                                <state key="normal" title="Insert"/>
+                                <connections>
+                                    <action selector="insertBook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ntZ-u9-y2b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FP7-Hz-P4O">
+                                <rect key="frame" x="279" y="210" width="42" height="30"/>
+                                <state key="normal" title="Query"/>
+                                <connections>
+                                    <action selector="queryOneBook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eLU-Yh-AAK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGe-fz-swN">
+                                <rect key="frame" x="274" y="248" width="51" height="30"/>
+                                <state key="normal" title="Update"/>
+                                <connections>
+                                    <action selector="updateOneBook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FjX-Xv-H9r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nK1-Wp-snP">
+                                <rect key="frame" x="277" y="286" width="45" height="30"/>
+                                <state key="normal" title="Delete"/>
+                                <connections>
+                                    <action selector="deleteOneBook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XTX-Hl-rhq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4c-3O-AnY">
+                                <rect key="frame" x="268" y="324" width="63" height="30"/>
+                                <state key="normal" title="Query All"/>
+                                <connections>
+                                    <action selector="queryAllBook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fai-3s-NVM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQ4-Ey-JLH">
+                                <rect key="frame" x="272.5" y="362" width="55" height="30"/>
+                                <state key="normal" title="Clear UI"/>
+                                <connections>
+                                    <action selector="clearUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qyy-jJ-y1r"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xkR-iA-r5o" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="5js-di-gus"/>
+                            <constraint firstItem="nK1-Wp-snP" firstAttribute="top" secondItem="nGe-fz-swN" secondAttribute="bottom" constant="8" id="6Qv-sp-Snj"/>
+                            <constraint firstItem="xkR-iA-r5o" firstAttribute="top" secondItem="Gwk-HW-R2G" secondAttribute="bottom" constant="8" id="7DO-I0-jsd"/>
+                            <constraint firstItem="Q4c-3O-AnY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Ol-Wb-33l"/>
+                            <constraint firstItem="wcA-5W-Zj7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="EfQ-Bo-L6M"/>
+                            <constraint firstItem="wcA-5W-Zj7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="GLQ-nE-hFg"/>
+                            <constraint firstItem="xkR-iA-r5o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="H33-nn-CCp"/>
+                            <constraint firstItem="Q4c-3O-AnY" firstAttribute="top" secondItem="nK1-Wp-snP" secondAttribute="bottom" constant="8" id="NSh-R8-wAv"/>
+                            <constraint firstItem="7JL-x7-pES" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Ncf-6P-9Bq"/>
+                            <constraint firstItem="Wjo-NO-y8A" firstAttribute="top" secondItem="xkR-iA-r5o" secondAttribute="bottom" constant="8" id="OdQ-zE-CUz"/>
+                            <constraint firstItem="nK1-Wp-snP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RTK-Te-Xvn"/>
+                            <constraint firstItem="hQ4-Ey-JLH" firstAttribute="top" secondItem="Q4c-3O-AnY" secondAttribute="bottom" constant="8" id="WEu-fK-Vt7"/>
+                            <constraint firstItem="7JL-x7-pES" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YyX-Qk-AwC"/>
+                            <constraint firstItem="hQ4-Ey-JLH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zd7-8n-nQN"/>
+                            <constraint firstItem="wcA-5W-Zj7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="akD-On-tja"/>
+                            <constraint firstItem="FP7-Hz-P4O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="auM-Bf-7X7"/>
+                            <constraint firstItem="Gwk-HW-R2G" firstAttribute="top" secondItem="7JL-x7-pES" secondAttribute="bottom" constant="8" id="iyv-me-sIe"/>
+                            <constraint firstItem="FP7-Hz-P4O" firstAttribute="top" secondItem="Wjo-NO-y8A" secondAttribute="bottom" constant="8" id="j9I-8g-UiO"/>
+                            <constraint firstItem="Gwk-HW-R2G" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="kNk-HG-mja"/>
+                            <constraint firstItem="7JL-x7-pES" firstAttribute="top" secondItem="wcA-5W-Zj7" secondAttribute="bottom" constant="8" id="lQQ-EA-twK"/>
+                            <constraint firstItem="Wjo-NO-y8A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mne-AH-Wm5"/>
+                            <constraint firstItem="Gwk-HW-R2G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pLt-fJ-fKH"/>
+                            <constraint firstItem="nGe-fz-swN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pWx-fX-ixI"/>
+                            <constraint firstItem="nGe-fz-swN" firstAttribute="top" secondItem="FP7-Hz-P4O" secondAttribute="bottom" constant="8" id="xM4-c4-tbq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textFieldAuthor" destination="Gwk-HW-R2G" id="Q26-2w-KGP"/>
+                        <outlet property="textFieldBookName" destination="7JL-x7-pES" id="Wfu-Kw-dXf"/>
+                        <outlet property="textFieldISBN" destination="wcA-5W-Zj7" id="izh-gc-I7q"/>
+                        <outlet property="textFieldPrice" destination="xkR-iA-r5o" id="IjJ-Fh-JGV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="312"/>
+        </scene>
+    </scenes>
+</document>

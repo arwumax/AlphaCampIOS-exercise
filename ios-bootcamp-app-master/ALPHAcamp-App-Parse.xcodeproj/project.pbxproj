@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1023B4B1B3EBC470027014C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1023B4A1B3EBC470027014C /* main.m */; };
+		C1023B4E1B3EBC470027014C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1023B4D1B3EBC470027014C /* AppDelegate.m */; };
+		C1023B511B3EBC470027014C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1023B501B3EBC470027014C /* ViewController.m */; };
+		C1023B561B3EBC480027014C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1023B551B3EBC480027014C /* Images.xcassets */; };
+		C1023B591B3EBC480027014C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1023B571B3EBC480027014C /* LaunchScreen.xib */; };
+		C1023B651B3EBC480027014C /* ALPHAcamp_App_ParseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1023B641B3EBC480027014C /* ALPHAcamp_App_ParseTests.m */; };
+		C15758EB1B43DF2F00FEEB16 /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C15758EA1B43DF2F00FEEB16 /* AboutVC.m */; };
+		C1978BDF1B413E85004408B9 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1978BDE1B413E85004408B9 /* MainTabBarController.m */; };
+		C1978BE41B41B337004408B9 /* EventTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1978BE31B41B337004408B9 /* EventTableVC.m */; };
+		C1C0A7171B42DF5200E9F1FB /* WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C0A7161B42DF5200E9F1FB /* WebVC.m */; };
+		C1C564C51B4017AE007E59BD /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C564C41B4017AE007E59BD /* LoginVC.m */; };
+		C1C564C91B405517007E59BD /* ClassTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C564C81B405517007E59BD /* ClassTableVC.m */; };
+		C1C564CD1B40578D007E59BD /* SubClassTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C564CC1B40578D007E59BD /* SubClassTableVC.m */; };
+		C1F3CCD91B49106C00E904FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F3CCD71B49106C00E904FF /* Main.storyboard */; };
+		D26950D2529616655C0005DC /* libPods-ALPHAcamp-App-Parse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8BCADF7CA20BF6B192FA46 /* libPods-ALPHAcamp-App-Parse.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1023B5F1B3EBC480027014C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1023B3D1B3EBC470027014C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1023B441B3EBC470027014C;
+			remoteInfo = "ALPHAcamp-App-Parse";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D8BCADF7CA20BF6B192FA46 /* libPods-ALPHAcamp-App-Parse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALPHAcamp-App-Parse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE509E88E087F5B2E1E258 /* Pods-ALPHAcamp-App-Parse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALPHAcamp-App-Parse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALPHAcamp-App-Parse/Pods-ALPHAcamp-App-Parse.debug.xcconfig"; sourceTree = "<group>"; };
+		BF1799C1DD130DDF64C32944 /* Pods-ALPHAcamp-App-Parse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALPHAcamp-App-Parse.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALPHAcamp-App-Parse/Pods-ALPHAcamp-App-Parse.release.xcconfig"; sourceTree = "<group>"; };
+		C1023B451B3EBC470027014C /* ALPHAcamp-App-Parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALPHAcamp-App-Parse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1023B491B3EBC470027014C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1023B4A1B3EBC470027014C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1023B4C1B3EBC470027014C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1023B4D1B3EBC470027014C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1023B4F1B3EBC470027014C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1023B501B3EBC470027014C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1023B551B3EBC480027014C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1023B581B3EBC480027014C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C1023B5E1B3EBC480027014C /* ALPHAcamp-App-ParseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALPHAcamp-App-ParseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1023B631B3EBC480027014C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1023B641B3EBC480027014C /* ALPHAcamp_App_ParseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALPHAcamp_App_ParseTests.m; sourceTree = "<group>"; };
+		C15758E91B43DF2F00FEEB16 /* AboutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutVC.h; sourceTree = "<group>"; };
+		C15758EA1B43DF2F00FEEB16 /* AboutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutVC.m; sourceTree = "<group>"; };
+		C1978BDD1B413E85004408B9 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		C1978BDE1B413E85004408B9 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		C1978BE21B41B337004408B9 /* EventTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableVC.h; sourceTree = "<group>"; };
+		C1978BE31B41B337004408B9 /* EventTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableVC.m; sourceTree = "<group>"; };
+		C1C0A7151B42DF5200E9F1FB /* WebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVC.h; sourceTree = "<group>"; };
+		C1C0A7161B42DF5200E9F1FB /* WebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebVC.m; sourceTree = "<group>"; };
+		C1C564C31B4017AE007E59BD /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		C1C564C41B4017AE007E59BD /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		C1C564C71B405517007E59BD /* ClassTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassTableVC.h; sourceTree = "<group>"; };
+		C1C564C81B405517007E59BD /* ClassTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassTableVC.m; sourceTree = "<group>"; };
+		C1C564CB1B40578D007E59BD /* SubClassTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClassTableVC.h; sourceTree = "<group>"; };
+		C1C564CC1B40578D007E59BD /* SubClassTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClassTableVC.m; sourceTree = "<group>"; };
+		C1F3CCD81B49106C00E904FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1023B421B3EBC470027014C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26950D2529616655C0005DC /* libPods-ALPHAcamp-App-Parse.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1023B5B1B3EBC480027014C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EE8472BE29B0746981711A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE509E88E087F5B2E1E258 /* Pods-ALPHAcamp-App-Parse.debug.xcconfig */,
+				BF1799C1DD130DDF64C32944 /* Pods-ALPHAcamp-App-Parse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1023B3C1B3EBC470027014C = {
+			isa = PBXGroup;
+			children = (
+				C1023B471B3EBC470027014C /* ALPHAcamp-App-Parse */,
+				C1023B611B3EBC480027014C /* ALPHAcamp-App-ParseTests */,
+				C1023B461B3EBC470027014C /* Products */,
+				5EE8472BE29B0746981711A6 /* Pods */,
+				C2E3D72ED3E64C2568B13BE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1023B461B3EBC470027014C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1023B451B3EBC470027014C /* ALPHAcamp-App-Parse.app */,
+				C1023B5E1B3EBC480027014C /* ALPHAcamp-App-ParseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1023B471B3EBC470027014C /* ALPHAcamp-App-Parse */ = {
+			isa = PBXGroup;
+			children = (
+				C1023B4C1B3EBC470027014C /* AppDelegate.h */,
+				C1023B4D1B3EBC470027014C /* AppDelegate.m */,
+				C1023B4F1B3EBC470027014C /* ViewController.h */,
+				C1023B501B3EBC470027014C /* ViewController.m */,
+				C1978BDD1B413E85004408B9 /* MainTabBarController.h */,
+				C1978BDE1B413E85004408B9 /* MainTabBarController.m */,
+				C1F3CCD71B49106C00E904FF /* Main.storyboard */,
+				C1023B551B3EBC480027014C /* Images.xcassets */,
+				C1C564C61B401BBF007E59BD /* Login VC */,
+				C1978BE11B41B308004408B9 /* Event TableVC */,
+				C1C564CA1B40551D007E59BD /* Class TableVC */,
+				C1978BE01B41B2E1004408B9 /* AboutAC VC */,
+				C1023B571B3EBC480027014C /* LaunchScreen.xib */,
+				C1023B481B3EBC470027014C /* Supporting Files */,
+			);
+			path = "ALPHAcamp-App-Parse";
+			sourceTree = "<group>";
+		};
+		C1023B481B3EBC470027014C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1023B491B3EBC470027014C /* Info.plist */,
+				C1023B4A1B3EBC470027014C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1023B611B3EBC480027014C /* ALPHAcamp-App-ParseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1023B641B3EBC480027014C /* ALPHAcamp_App_ParseTests.m */,
+				C1023B621B3EBC480027014C /* Supporting Files */,
+			);
+			path = "ALPHAcamp-App-ParseTests";
+			sourceTree = "<group>";
+		};
+		C1023B621B3EBC480027014C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1023B631B3EBC480027014C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1978BE01B41B2E1004408B9 /* AboutAC VC */ = {
+			isa = PBXGroup;
+			children = (
+				C15758E91B43DF2F00FEEB16 /* AboutVC.h */,
+				C15758EA1B43DF2F00FEEB16 /* AboutVC.m */,
+			);
+			name = "AboutAC VC";
+			sourceTree = "<group>";
+		};
+		C1978BE11B41B308004408B9 /* Event TableVC */ = {
+			isa = PBXGroup;
+			children = (
+				C1978BE21B41B337004408B9 /* EventTableVC.h */,
+				C1978BE31B41B337004408B9 /* EventTableVC.m */,
+				C1C0A7151B42DF5200E9F1FB /* WebVC.h */,
+				C1C0A7161B42DF5200E9F1FB /* WebVC.m */,
+			);
+			name = "Event TableVC";
+			sourceTree = "<group>";
+		};
+		C1C564C61B401BBF007E59BD /* Login VC */ = {
+			isa = PBXGroup;
+			children = (
+				C1C564C31B4017AE007E59BD /* LoginVC.h */,
+				C1C564C41B4017AE007E59BD /* LoginVC.m */,
+			);
+			name = "Login VC";
+			sourceTree = "<group>";
+		};
+		C1C564CA1B40551D007E59BD /* Class TableVC */ = {
+			isa = PBXGroup;
+			children = (
+				C1C564C71B405517007E59BD /* ClassTableVC.h */,
+				C1C564C81B405517007E59BD /* ClassTableVC.m */,
+				C1C564CB1B40578D007E59BD /* SubClassTableVC.h */,
+				C1C564CC1B40578D007E59BD /* SubClassTableVC.m */,
+			);
+			name = "Class TableVC";
+			sourceTree = "<group>";
+		};
+		C2E3D72ED3E64C2568B13BE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D8BCADF7CA20BF6B192FA46 /* libPods-ALPHAcamp-App-Parse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1023B441B3EBC470027014C /* ALPHAcamp-App-Parse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1023B681B3EBC480027014C /* Build configuration list for PBXNativeTarget "ALPHAcamp-App-Parse" */;
+			buildPhases = (
+				27B2FCA6AA877A43892EF559 /* Check Pods Manifest.lock */,
+				C1023B411B3EBC470027014C /* Sources */,
+				C1023B421B3EBC470027014C /* Frameworks */,
+				C1023B431B3EBC470027014C /* Resources */,
+				A883037EEC018B4D0DA1280B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ALPHAcamp-App-Parse";
+			productName = "ALPHAcamp-App-Parse";
+			productReference = C1023B451B3EBC470027014C /* ALPHAcamp-App-Parse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1023B5D1B3EBC480027014C /* ALPHAcamp-App-ParseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1023B6B1B3EBC480027014C /* Build configuration list for PBXNativeTarget "ALPHAcamp-App-ParseTests" */;
+			buildPhases = (
+				C1023B5A1B3EBC480027014C /* Sources */,
+				C1023B5B1B3EBC480027014C /* Frameworks */,
+				C1023B5C1B3EBC480027014C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1023B601B3EBC480027014C /* PBXTargetDependency */,
+			);
+			name = "ALPHAcamp-App-ParseTests";
+			productName = "ALPHAcamp-App-ParseTests";
+			productReference = C1023B5E1B3EBC480027014C /* ALPHAcamp-App-ParseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1023B3D1B3EBC470027014C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tank Lin";
+				TargetAttributes = {
+					C1023B441B3EBC470027014C = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 8H7X36TF25;
+					};
+					C1023B5D1B3EBC480027014C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C1023B441B3EBC470027014C;
+					};
+				};
+			};
+			buildConfigurationList = C1023B401B3EBC470027014C /* Build configuration list for PBXProject "ALPHAcamp-App-Parse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1023B3C1B3EBC470027014C;
+			productRefGroup = C1023B461B3EBC470027014C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1023B441B3EBC470027014C /* ALPHAcamp-App-Parse */,
+				C1023B5D1B3EBC480027014C /* ALPHAcamp-App-ParseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1023B431B3EBC470027014C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F3CCD91B49106C00E904FF /* Main.storyboard in Resources */,
+				C1023B591B3EBC480027014C /* LaunchScreen.xib in Resources */,
+				C1023B561B3EBC480027014C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1023B5C1B3EBC480027014C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27B2FCA6AA877A43892EF559 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A883037EEC018B4D0DA1280B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALPHAcamp-App-Parse/Pods-ALPHAcamp-App-Parse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1023B411B3EBC470027014C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1023B511B3EBC470027014C /* ViewController.m in Sources */,
+				C1978BDF1B413E85004408B9 /* MainTabBarController.m in Sources */,
+				C1023B4E1B3EBC470027014C /* AppDelegate.m in Sources */,
+				C1C564C51B4017AE007E59BD /* LoginVC.m in Sources */,
+				C1978BE41B41B337004408B9 /* EventTableVC.m in Sources */,
+				C1023B4B1B3EBC470027014C /* main.m in Sources */,
+				C15758EB1B43DF2F00FEEB16 /* AboutVC.m in Sources */,
+				C1C0A7171B42DF5200E9F1FB /* WebVC.m in Sources */,
+				C1C564C91B405517007E59BD /* ClassTableVC.m in Sources */,
+				C1C564CD1B40578D007E59BD /* SubClassTableVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1023B5A1B3EBC480027014C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1023B651B3EBC480027014C /* ALPHAcamp_App_ParseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1023B601B3EBC480027014C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1023B441B3EBC470027014C /* ALPHAcamp-App-Parse */;
+			targetProxy = C1023B5F1B3EBC480027014C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1023B571B3EBC480027014C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1023B581B3EBC480027014C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C1F3CCD71B49106C00E904FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F3CCD81B49106C00E904FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1023B661B3EBC480027014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1023B671B3EBC480027014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1023B691B3EBC480027014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4DE509E88E087F5B2E1E258 /* Pods-ALPHAcamp-App-Parse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "ALPHAcamp-App-Parse/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1023B6A1B3EBC480027014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1799C1DD130DDF64C32944 /* Pods-ALPHAcamp-App-Parse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "ALPHAcamp-App-Parse/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1023B6C1B3EBC480027014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ALPHAcamp-App-ParseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALPHAcamp-App-Parse.app/ALPHAcamp-App-Parse";
+			};
+			name = Debug;
+		};
+		C1023B6D1B3EBC480027014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ALPHAcamp-App-ParseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALPHAcamp-App-Parse.app/ALPHAcamp-App-Parse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1023B401B3EBC470027014C /* Build configuration list for PBXProject "ALPHAcamp-App-Parse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1023B661B3EBC480027014C /* Debug */,
+				C1023B671B3EBC480027014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1023B681B3EBC480027014C /* Build configuration list for PBXNativeTarget "ALPHAcamp-App-Parse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1023B691B3EBC480027014C /* Debug */,
+				C1023B6A1B3EBC480027014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1023B6B1B3EBC480027014C /* Build configuration list for PBXNativeTarget "ALPHAcamp-App-ParseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1023B6C1B3EBC480027014C /* Debug */,
+				C1023B6D1B3EBC480027014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1023B3D1B3EBC470027014C /* Project object */;
+}

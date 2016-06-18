@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE46A691C969F3B00169091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE46A681C969F3B00169091 /* AppDelegate.swift */; };
+		1AE46A6B1C969F3B00169091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE46A6A1C969F3B00169091 /* ViewController.swift */; };
+		1AE46A6E1C969F3B00169091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE46A6C1C969F3B00169091 /* Main.storyboard */; };
+		1AE46A701C969F3B00169091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE46A6F1C969F3B00169091 /* Assets.xcassets */; };
+		1AE46A731C969F3B00169091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE46A711C969F3B00169091 /* LaunchScreen.storyboard */; };
+		1AE46A7B1C96A71400169091 /* PoetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE46A7A1C96A71400169091 /* PoetTableViewCell.swift */; };
+		1AE46A7F1C96B30500169091 /* PoetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE46A7E1C96B30500169091 /* PoetTableViewController.swift */; };
+		1AE46A811C96BCD500169091 /* Poet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE46A801C96BCD500169091 /* Poet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AE46A651C969F3B00169091 /* 唐詩三百首.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "唐詩三百首.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE46A681C969F3B00169091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AE46A6A1C969F3B00169091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AE46A6D1C969F3B00169091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AE46A6F1C969F3B00169091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AE46A721C969F3B00169091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AE46A741C969F3B00169091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE46A7A1C96A71400169091 /* PoetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetTableViewCell.swift; sourceTree = "<group>"; };
+		1AE46A7E1C96B30500169091 /* PoetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetTableViewController.swift; sourceTree = "<group>"; };
+		1AE46A801C96BCD500169091 /* Poet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Poet.swift; path = ../Poet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE46A621C969F3B00169091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE46A5C1C969F3B00169091 = {
+			isa = PBXGroup;
+			children = (
+				1AE46A671C969F3B00169091 /* 唐詩三百首 */,
+				1AE46A661C969F3B00169091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AE46A661C969F3B00169091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AE46A651C969F3B00169091 /* 唐詩三百首.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AE46A671C969F3B00169091 /* 唐詩三百首 */ = {
+			isa = PBXGroup;
+			children = (
+				1AE46A681C969F3B00169091 /* AppDelegate.swift */,
+				1AE46A7E1C96B30500169091 /* PoetTableViewController.swift */,
+				1AE46A7A1C96A71400169091 /* PoetTableViewCell.swift */,
+				1AE46A801C96BCD500169091 /* Poet.swift */,
+				1AE46A6A1C969F3B00169091 /* ViewController.swift */,
+				1AE46A6C1C969F3B00169091 /* Main.storyboard */,
+				1AE46A6F1C969F3B00169091 /* Assets.xcassets */,
+				1AE46A711C969F3B00169091 /* LaunchScreen.storyboard */,
+				1AE46A741C969F3B00169091 /* Info.plist */,
+			);
+			path = "唐詩三百首";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AE46A641C969F3B00169091 /* 唐詩三百首 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE46A771C969F3B00169091 /* Build configuration list for PBXNativeTarget "唐詩三百首" */;
+			buildPhases = (
+				1AE46A611C969F3B00169091 /* Sources */,
+				1AE46A621C969F3B00169091 /* Frameworks */,
+				1AE46A631C969F3B00169091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "唐詩三百首";
+			productName = "唐詩三百首";
+			productReference = 1AE46A651C969F3B00169091 /* 唐詩三百首.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AE46A5D1C969F3B00169091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Wu Kwok Ho";
+				TargetAttributes = {
+					1AE46A641C969F3B00169091 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1AE46A601C969F3B00169091 /* Build configuration list for PBXProject "唐詩三百首" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AE46A5C1C969F3B00169091;
+			productRefGroup = 1AE46A661C969F3B00169091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AE46A641C969F3B00169091 /* 唐詩三百首 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AE46A631C969F3B00169091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE46A731C969F3B00169091 /* LaunchScreen.storyboard in Resources */,
+				1AE46A701C969F3B00169091 /* Assets.xcassets in Resources */,
+				1AE46A6E1C969F3B00169091 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE46A611C969F3B00169091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE46A811C96BCD500169091 /* Poet.swift in Sources */,
+				1AE46A6B1C969F3B00169091 /* ViewController.swift in Sources */,
+				1AE46A691C969F3B00169091 /* AppDelegate.swift in Sources */,
+				1AE46A7B1C96A71400169091 /* PoetTableViewCell.swift in Sources */,
+				1AE46A7F1C96B30500169091 /* PoetTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AE46A6C1C969F3B00169091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE46A6D1C969F3B00169091 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AE46A711C969F3B00169091 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE46A721C969F3B00169091 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AE46A751C969F3B00169091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AE46A761C969F3B00169091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AE46A781C969F3B00169091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "唐詩三百首/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Co.Alphacamp.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AE46A791C969F3B00169091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "唐詩三百首/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Co.Alphacamp.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE46A601C969F3B00169091 /* Build configuration list for PBXProject "唐詩三百首" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE46A751C969F3B00169091 /* Debug */,
+				1AE46A761C969F3B00169091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE46A771C969F3B00169091 /* Build configuration list for PBXNativeTarget "唐詩三百首" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE46A781C969F3B00169091 /* Debug */,
+				1AE46A791C969F3B00169091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AE46A5D1C969F3B00169091 /* Project object */;
+}

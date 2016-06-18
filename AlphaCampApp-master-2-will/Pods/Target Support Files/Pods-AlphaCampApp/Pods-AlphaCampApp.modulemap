@@ -1,0 +1,6 @@
+framework module Pods_AlphaCampApp {
+  umbrella header "Pods-AlphaCampApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
